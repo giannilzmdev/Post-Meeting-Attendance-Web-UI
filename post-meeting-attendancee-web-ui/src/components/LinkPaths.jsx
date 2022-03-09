@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import { Route, Routes, Link } from 'react-router-dom'
 import Dashboard from '../pages/Dashboard'
 import PastParticipants from '../pages/PastParticipants'
 import PastMeetings from '../pages/PastMeetings'
@@ -7,7 +7,7 @@ import PastMeetings from '../pages/PastMeetings'
 
 const LinkPaths = () => {
   return (
-    <Router>
+    <div>
       <nav>
         <Link to ='/'> Dashboard </Link>
         <Link to ='/past_participants'> Past Participants </Link>
@@ -20,8 +20,8 @@ const LinkPaths = () => {
         <Route path='/past_meetings' element={ <PastMeetings />}/>
 
       </Routes>
-
-    </Router> 
+      </div>
+   
   ) 
 }
 
