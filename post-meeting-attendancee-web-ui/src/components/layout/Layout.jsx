@@ -6,9 +6,10 @@ import { BrowserRouter } from 'react-router-dom'
 const Layout = () => {
   return (
     <BrowserRouter>
-
+      
+       <Sidebar/>
        <LinkPaths/>
-       
+
     </BrowserRouter>
   )
 }
