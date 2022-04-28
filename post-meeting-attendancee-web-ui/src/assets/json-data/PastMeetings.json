@@ -1,4 +1,4 @@
-const pastMeetings = [
+[
     {
         "dept": "Social Sciences",
         "duration": 40,
