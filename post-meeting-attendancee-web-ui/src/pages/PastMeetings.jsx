@@ -5,11 +5,26 @@ const PastMeetings = () => {
   return (
     <div className='PastMeetings'>
       Past Meetings
+      <br/>
+      <br/>
       {
-        Meetings.map( meeting => {
+        // Using && symbol means to check if data exists before mapping so page doesn't break.
+        Meetings && Meetings.map( meeting => {
           return(
             <div className="meeting">
-              { meeting.dept }
+              { meeting.dept } <br/>
+              { meeting.duration } <br/>
+              { meeting.end_time } <br/>
+              { meeting.host_id } <br/>
+              { meeting.id } <br/>
+              { meeting.participants_count } <br/>
+              { meeting.source} <br/>
+              { meeting.start_time} <br/>
+              { meeting.topic} <br/>
+              { meeting.total_minutes} <br/>
+              { meeting.type} <br/>
+              {meeting.user_email} <br/>
+
              </div> 
           ) 
         })
