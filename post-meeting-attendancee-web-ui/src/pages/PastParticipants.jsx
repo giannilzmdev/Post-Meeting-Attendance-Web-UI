@@ -10,7 +10,9 @@ const PastParticipants = () => {
         Participants && Participants.map( participant => {
           return(
             <div className="meeting">
-              { participant.next_page_token }
+              { participant.next_page_token } <br/>
+              { participant.page_count} <br/>
+
              </div> 
           ) 
         })
