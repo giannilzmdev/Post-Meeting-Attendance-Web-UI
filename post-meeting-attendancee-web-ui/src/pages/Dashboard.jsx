@@ -1,4 +1,6 @@
 import React from 'react'
+import PastMeetings from './PastMeetings'
+import PastParticipants from './PastParticipants'
 
 const Dashboard = () => {
   return (
