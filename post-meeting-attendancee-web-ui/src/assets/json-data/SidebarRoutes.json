@@ -1,0 +1,20 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/",
+        "icon": "bx bx-category--alt"
+    },
+
+    {
+        "display_name": "Past Participants",
+        "route": "/past_participants",
+        "icon": "bx bx-group"
+    },
+
+    {
+        "display_name": "Past Meetings",
+        "route": "/past_meetings",
+        "icon": "bx bx-conversation"
+    }
+]
+
